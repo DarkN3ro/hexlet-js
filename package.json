@@ -5,11 +5,12 @@
   "description": "touch README.md again and try install all programm now",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --experimental-modules --no-warnings ./tests/capitalize.test.js"
   },
   "author": "Sombra",
   "license": "ISC",
   "dependencies": {
+    "crc-32": "https://cdn.sheetjs.com/crc-32-latest/crc-32-latest.tgz",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
